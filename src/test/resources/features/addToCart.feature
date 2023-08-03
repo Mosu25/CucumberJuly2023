@@ -1,5 +1,6 @@
 Feature: Products test
 
+  @clean
   Scenario Outline: Add to cart
     And user login into the application with "<username>" and "<password>"
     And user search for a "<book>"
@@ -10,7 +11,6 @@ Feature: Products test
       | username | password     | book            |
       | Mosu2023 | Welcome@2023 | Roomies         |
       | Mosu2023 | Welcome@2023 | The Simple Wild |
-
 
     Examples:
       | username | password     | book          |
