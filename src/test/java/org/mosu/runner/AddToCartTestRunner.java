@@ -1,6 +1,5 @@
 package org.mosu.runner;
 
-
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
@@ -11,10 +10,10 @@ import io.cucumber.testng.CucumberOptions;
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         monochrome = true,
         glue = {"org.mosu.stepdefs", "org.mosu.hooks"},
-        plugin = {"html:cucumber/Report.html"}
+        plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+//        plugin = {"html:cucumber/Report.html"}
 
 )
-public class Runner extends AbstractTestNGCucumberTests {
-
+public class AddToCartTestRunner extends AbstractTestNGCucumberTests {
 
 }

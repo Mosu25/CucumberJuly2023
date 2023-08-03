@@ -30,7 +30,6 @@ public class LoginSteps {
         WebElement userName = DriverManager.getDriver()
                 .findElement(By.xpath("//button[contains(@class,'mat-focus-indicator mat-menu-trigger')]//span[1]"));
         String substring = userName.getText().trim().substring(15, 23);
-        System.out.println("userName = " + substring);
         Assert.assertEquals(substring, "Mosu2023");
 
 //        Driver.quitDriver();

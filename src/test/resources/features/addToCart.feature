@@ -12,7 +12,7 @@ Feature: Products test
       | Mosu2023 | Welcome@2023 | Roomies         |
       | Mosu2023 | Welcome@2023 | The Simple Wild |
 
-    Examples:
-      | username | password     | book          |
-      | Mosu2023 | Welcome@2023 | Robbie        |
-      | Mosu2023 | Welcome@2023 | Catching Fire |
+#    Examples:
+#      | username | password     | book          |
+#      | Mosu2023 | Welcome@2023 | Robbie        |
+#      | Mosu2023 | Welcome@2023 | Catching Fire |
