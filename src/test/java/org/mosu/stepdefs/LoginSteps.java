@@ -32,6 +32,7 @@ public class LoginSteps {
         String substring = userName.getText().trim().substring(15, 23);
         System.out.println("userName = " + substring);
         Assert.assertEquals(substring, "Mosu2023");
+
 //        Driver.quitDriver();
     }
 

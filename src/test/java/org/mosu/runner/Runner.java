@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 
-        features = "src/test/resources/features/login.feature",
+        features = "src/test/resources/features/addToCart.feature",
         dryRun = false,
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         monochrome = true,
