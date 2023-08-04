@@ -7,12 +7,14 @@ Feature: Products test
     When user add the book to the cart
     Then the cart badge should get updated
 
+    @prod
     Examples:
       | username | password     | book            |
       | Mosu2023 | Welcome@2023 | Roomies         |
       | Mosu2023 | Welcome@2023 | The Simple Wild |
 
-#    Examples:
-#      | username | password     | book          |
-#      | Mosu2023 | Welcome@2023 | Robbie        |
-#      | Mosu2023 | Welcome@2023 | Catching Fire |
+    @test
+    Examples:
+      | username | password     | book          |
+      | Mosu2023 | Welcome@2023 | Robbie        |
+      | Mosu2023 | Welcome@2023 | Catching Fire |

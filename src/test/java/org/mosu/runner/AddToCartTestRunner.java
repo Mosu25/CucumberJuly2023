@@ -10,7 +10,8 @@ import io.cucumber.testng.CucumberOptions;
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         monochrome = true,
         glue = {"org.mosu.stepdefs", "org.mosu.hooks"},
-        plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+        plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+        tags = "@prod or @test"
 //        plugin = {"html:cucumber/Report.html"}
 
 )
